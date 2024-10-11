@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: my-first-kubernetes-api
 spec:
-  replicas: 2
   selector:
     matchLabels:
       app: my-first-kubernetes-api
@@ -17,3 +16,7 @@ spec:
         image: ychavez790/my-first-kubernetes-api
         ports:
         - containerPort: 80
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
