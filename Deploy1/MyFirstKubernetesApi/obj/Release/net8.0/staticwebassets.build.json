@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dudY0kzUa0sTCoO/J4Jap3jrccg6fK0Inq8zeQfXf1s=",
+  "Source": "MyFirstKubernetesApi",
+  "BasePath": "_content/MyFirstKubernetesApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

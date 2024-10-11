@@ -1,0 +1,6 @@
+@WebApinetTest_HostAddress = http://localhost:5298
+
+GET {{WebApinetTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

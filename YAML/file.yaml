@@ -1,0 +1,13 @@
+key: value
+
+
+instructor: 
+  name: Yael
+  age: 32
+  courses: 
+    - course1
+    - course2:
+       duration: 
+             - 3months:
+                    students: 30 
+    - course3

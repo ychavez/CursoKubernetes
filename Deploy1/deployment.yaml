@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-first-kubernetes-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-first-kubernetes-api
+  template:
+    metadata:
+      labels:
+        app: my-first-kubernetes-api
+    spec:
+      containers:
+      - name: my-first-kubernetes-api
+        image: ychavez790/my-first-kubernetes-api
+        ports:
+        - containerPort: 80
